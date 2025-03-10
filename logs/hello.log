@@ -1,0 +1,22 @@
+2025-03-06T09:01:09.152+05:30  INFO 6433 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Starting LogManagementApplication using Java 17.0.8 with PID 6433 (/home/durangi/ThridSem/Log-Management/target/classes started by durangi in /home/durangi/ThridSem/Log-Management)
+2025-03-06T09:01:09.162+05:30  INFO 6433 --- [Log-Management] [main] l.i.l.LogManagementApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-03-06T09:01:09.786+05:30  INFO 6433 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-06T09:01:09.793+05:30  INFO 6433 --- [Log-Management] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06T09:01:09.794+05:30  INFO 6433 --- [Log-Management] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-06T09:01:09.814+05:30  INFO 6433 --- [Log-Management] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06T09:01:09.814+05:30  INFO 6433 --- [Log-Management] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2025-03-06T09:01:10.031+05:30  INFO 6433 --- [Log-Management] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-06T09:01:10.037+05:30  INFO 6433 --- [Log-Management] [main] l.i.l.LogManagementApplication           : Started LogManagementApplication in 1.24 seconds (process running for 1.666)
+2025-03-06T09:03:16.745+05:30  INFO 6433 --- [Log-Management] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06T09:03:16.746+05:30  INFO 6433 --- [Log-Management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06T09:03:16.746+05:30  INFO 6433 --- [Log-Management] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-06T09:03:16.761+05:30  INFO 6433 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is a INFO log message
+2025-03-06T09:03:16.761+05:30  WARN 6433 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is a WARN log message
+2025-03-06T09:03:16.761+05:30 ERROR 6433 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is a ERROR message
+2025-03-06T09:03:16.761+05:30 ERROR 6433 --- [Log-Management] [http-nio-8080-exec-2] l.i.l.controller.LogController           : This is error: Hello i'm an Exception
+2025-03-06T09:03:32.648+05:30  INFO 6433 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is a INFO log message
+2025-03-06T09:03:32.648+05:30  WARN 6433 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is a WARN log message
+2025-03-06T09:03:32.648+05:30 ERROR 6433 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is a ERROR message
+2025-03-06T09:03:32.648+05:30 ERROR 6433 --- [Log-Management] [http-nio-8080-exec-3] l.i.l.controller.LogController           : This is error: Hello i'm an Exception
+2025-03-06T09:04:30.846+05:30  INFO 6433 --- [Log-Management] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-06T09:04:30.850+05:30  INFO 6433 --- [Log-Management] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
